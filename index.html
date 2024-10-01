@@ -1,0 +1,123 @@
+<form id="leadForm">
+
+<fieldset>
+
+<legend>Type de logement :</legend>
+
+<label><input type="radio" name="logement" value="Maison individuelle" required> Maison individuelle</label><br>
+
+<label><input type="radio" name="logement" value="Appartement" required> Appartement</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Nombre de radiateurs :</legend>
+
+<input type="number" name="radiateurs" min="1" required>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Type de robinet utilisé :</legend>
+
+<label><input type="radio" name="robinet" value="Manuel sans graduation" required> Manuel sans graduation &nbsp; &nbsp;❌ hors cible</label><br>
+
+<label><input type="radio" name="robinet" value="Manuel avec graduation" required> Manuel avec graduation &nbsp; &nbsp;✅</label><br>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Surface habitable (en m²) :</legend>
+
+<input type="number" name="surface" min="1" required>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Mode de chauffage :</legend>
+
+<label><input type="radio" name="mode" value="Individuel" required> Individuel &nbsp; &nbsp;✅</label><br>
+
+<label><input type="radio" name="mode" value="Collectif" required> Collectif &nbsp; &nbsp;❌ hors cible</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Type de chauffage principal :</legend>
+
+<label><input type="radio" name="type" value="Gaz" required> Gaz</label><br>
+
+<label><input type="radio" name="type" value="Electrique" required> Électrique</label><br>
+
+<label><input type="radio" name="type" value="Fioul" required> Fioul</label><br>
+
+<label><input type="radio" name="type" value="Bois" required> Bois</label><br>
+
+<label><input type="radio" name="type" value="Autre" required> Autre</label><br>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Connexion internet :</legend>
+
+<label><input type="radio" name="internet" value="Oui" required> Oui</label><br>
+
+<label><input type="radio" name="internet" value="Non" required> Non &nbsp; &nbsp;❌ hors cible</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Smartphone :</legend>
+
+<label><input type="radio" name="smartphone" value="Oui" required> Oui</label><br>
+
+<label><input type="radio" name="smartphone" value="Non" required> Non &nbsp; &nbsp;❌ hors cible</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Coordonnées complètes :</legend>
+
+<label for="civilite">Civilité:</label><br>
+
+<label><input type="radio" name="civilite" value="Monsieur" required> Monsieur</label><br>
+
+<label><input type="radio" name="civilite" value="Madame" required> Madame</label><br>
+
+<label for="nom">Nom et Prénom:</label><br>
+
+<input type="text" id="nom" name="nom" required><br>
+
+<label for="adresse">Adresse complète:</label><br>
+
+<input type="text" id="adresse" name="adresse" required><br>
+
+<label for="cp">Code postal:</label><br>
+
+<input type="text" id="cp" name="cp" required><br>
+
+<label for="ville">Ville:</label><br>
+
+<input type="text" id="ville" name="ville" required><br>
+
+<label for="telfixe">Numéro de téléphone fixe:</label><br>
+
+<input type="text" id="telfixe" name="telfixe" required><br>
+
+<label for="telportable">Numéro de téléphone portable:</label><br>
+
+<input type="text" id="telportable" name="telportable" required><br>
+
+</fieldset>
+
+<input type="submit" value="Envoyer">
+
+</form>
